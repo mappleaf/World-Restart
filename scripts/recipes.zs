@@ -2,6 +2,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
 
 recipes.removeByRecipeName("immersiveengineering:tool/hammer");
+recipes.removeByRecipeName("immersiveengineering:tool/wirecutters");
 recipes.removeByRecipeName("immersiveengineering:material/wire_copper");
 recipes.removeByRecipeName("immersiveengineering:material/wire_steel");
 recipes.removeByRecipeName("immersiveengineering:material/wire_electrum");
@@ -61,25 +62,25 @@ RecipeBuilder.get("engineer")
   .addTool(<immersiveengineering:tool:1>, 1)
   .addOutput(<immersiveengineering:material:20> * 2)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShapeless([<ore:plateElectrum>])
   .addTool(<immersiveengineering:tool:1>, 1)
   .addOutput(<immersiveengineering:material:21> * 2)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShapeless([<ore:plateAluminum>])
   .addTool(<immersiveengineering:tool:1>, 1)
   .addOutput(<immersiveengineering:material:22> * 2)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShapeless([<ore:plateSteel>])
   .addTool(<immersiveengineering:tool:1>, 1)
   .addOutput(<immersiveengineering:material:23> * 2)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <ore:stickCopper>, null],
@@ -89,7 +90,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansChisel>, 1)
   .addOutput(<immersiveengineering:connector> * 2)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <ore:stickCopper>, null],
@@ -98,7 +99,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansChisel>, 1)
   .addOutput(<immersiveengineering:connector:1> * 2)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <ore:stickIron>, null],
@@ -107,7 +108,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansChisel>, 1)
   .addOutput(<immersiveengineering:connector:3> * 2)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <ore:stickIron>, null],
@@ -117,7 +118,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansChisel>, 1)
   .addOutput(<immersiveengineering:connector:2> * 2)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <ore:stickAluminum>, null],
@@ -127,7 +128,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansChisel>, 1)
   .addOutput(<immersiveengineering:connector:4> * 2)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <ore:stickAluminum>, null],
@@ -137,7 +138,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansChisel>, 1)
   .addOutput(<immersiveengineering:connector:5> * 2)
   .create();
-  
+
 RecipeBuilder.get("carpenter")
   .setShaped([
     [null, <ore:stickTreatedWood>, null],
@@ -147,7 +148,7 @@ RecipeBuilder.get("carpenter")
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<immersiveengineering:material:10>)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [null, <immersiveengineering:material:10>, null],
@@ -156,7 +157,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansFramingHammer>, 1)
   .addOutput(<immersiveengineering:wooden_device1>)
   .create();
-  
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [<immersiveengineering:material:11>, <immersiveengineering:material:11>, <immersiveengineering:material:11>],
@@ -165,7 +166,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansFramingHammer>, 1)
   .addOutput(<immersiveengineering:wooden_device1:1>)
   .create();
-  
+
 RecipeBuilder.get("carpenter")
   .setShaped([
     [<ore:plankTreatedWood>, <ore:plankTreatedWood>, null],
