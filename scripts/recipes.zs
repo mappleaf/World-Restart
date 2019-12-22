@@ -176,3 +176,11 @@ RecipeBuilder.get("carpenter")
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<immersiveengineering:material:11>)
   .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ore:plateIron>, null],
+    [<ore:plateIron>, <ore:workbench>, <ore:plateIron>],
+    [<ore:logWood>, null, <ore:logWood>]])
+  .addOutput(<artisanworktables:worktable:3>)
+  .create();
